@@ -10,6 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap" rel="stylesheet">
 
+    <script>
+        document.addEventListener('play', function(e){  
+            var audios = document.getElementsByTagName('audio');  
+            for(var i = 0, len = audios.length; i < len;i++){  
+                if(audios[i] != e.target){  
+                    audios[i].pause();  
+                }  
+            }  
+        }, true);
+        </script>
 
     <title>Daniele Bartolini | Portfolio</title>
 </head>
