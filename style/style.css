@@ -1,0 +1,57 @@
+h1, h2, h3 {
+    color: #f4f7f7;
+  }
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    color: #aacfd0;
+    font-family: "Exo 2", sans-serif;
+}
+
+#container {
+    display: flex;
+}
+
+#left-side {
+    width: 400px;
+    background-color: #1f4e5f;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#right-side {
+    background-color: #aacfd0;
+    color: #f4f7f7;
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100vh;
+    box-sizing: border-box;
+    margin-left: 440px; /* Set this to the width of the left side */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    background-color: #79a8a9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px; /* Set a maximum width for the form */
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.audio-container {
+    text-align: center;
+}
+
+.audio-container audio {
+    display: inline-block; /* Rendi gli elementi audio inline-block per centrarli orizzontalmente */
+    margin: 0 10px; /* Regola il margine secondo necessità */
+}
