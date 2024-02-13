@@ -15,13 +15,14 @@ body {
 }
 
 #left-side {
-    width: 400px;
+    width: 360px;
     background-color: #1f4e5f;
     height: 100vh;
     overflow: hidden;
     position: fixed;
     padding-left: 40px;
     padding-top: 40px;
+    padding-right: 40px;
 }
 
 #right-side {
