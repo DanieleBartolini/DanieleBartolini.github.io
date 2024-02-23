@@ -50,9 +50,27 @@ section {
 
 .audio-container {
     text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.audio-box {
+    background-color: #79a8a9;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    width: 350px;
+    height: 90px;
+}
+
+.audio-box p {
+    color: #fff;
 }
 
 .audio-container audio {
-    display: inline-block; /* Rendi gli elementi audio inline-block per centrarli orizzontalmente */
-    margin: 0 10px; /* Regola il margine secondo necessità */
+    display: inline-block;
+    margin: 0 10px;
 }
+
