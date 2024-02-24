@@ -73,21 +73,3 @@ section {
     display: inline-block;
     margin: 0 10px;
 }
-
-/* New styles for smaller screens (mobile) */
-
-@media only screen and (max-width: 768px) {
-    #container {
-        flex-direction: column-reverse; /* Change flex direction for mobile */
-    }
-
-    #left-side {
-        width: 100%;
-        position: static;
-        padding: 20px;
-    }
-
-    #right-side {
-        margin-left: 0;
-    }
-}
